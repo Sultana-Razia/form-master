@@ -5,11 +5,12 @@ import './Grandfather.css';
 
 
 const Grandfather = () => {
+    const asset = 'diamond';
     return (
         <div className="grandfather">
             <h2>Grandfather</h2>
             <section className="flex">
-                <Father></Father>
+                <Father asset={asset}></Father>
                 <Uncle></Uncle>
                 <Aunty></Aunty>
             </section>
